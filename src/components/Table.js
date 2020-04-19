@@ -1,11 +1,12 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
+import React, { Component } from 'react';
 import Table from 'react-bootstrap/Table'
 
-class Table extends Component {
-  render () {
-  
 
+class TableData extends Component {
+  render () {
+    return (
+    
       <Table responsive>
         <thead>
           <tr>
@@ -99,6 +100,6 @@ class Table extends Component {
           </tr>
         </tbody>
       </Table>
-  }
+    )}
 }
-export default Table;
+export default TableData;
